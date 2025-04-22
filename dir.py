@@ -1,6 +1,7 @@
 import tkinter as tk
 import os
 
+
 def traverse_tree(current_path, parent_node):
     # 获取目录下的文件列表
     files = os.listdir(current_path)
